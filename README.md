@@ -41,6 +41,8 @@ You can run this project using Docker without installing Python dependencies on 
    ```bash
    docker run --rm open-meteo-cli milan turin tehran
 
+Developed by Sahar Mokhtari
+
 
 
 
