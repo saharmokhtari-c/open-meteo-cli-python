@@ -18,10 +18,6 @@ def start_cli():
         try:
             dati = client.get_api(city)
             results_meteo[city] = dati
-            #print(dati) => {'time': '2026-07-07T08:30', 'interval': 900, 'temperature': 27.5, 'windspeed': 5.5,
-            #'winddirection': 32, 'is_day': 1, 'weathercode': 0}            
-            #print(results_meteo) => {'turin': {'time': '2026-07-07T08:30', 'interval': 900, 'temperature': 27.5,
-            #'windspeed': 5.5, 'winddirection': 32, 'is_day': 1, 'weathercode': 0}}
             current_temp = dati.get("temperature",0)
             current_weathercode = dati.get("weathercode",0)
            
