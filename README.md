@@ -36,7 +36,7 @@ The project supports containerization using Docker for seamless setup and execut
 You can run this project using Docker without installing Python dependencies on your system.
 1. Build the Docker image:
    ```bash
-   docker build -t open-meteo-cli
+   docker build -t open-meteo-cli.
 2. Run the container:
    ```bash
    docker run --rm open-meteo-cli milan turin tehran
